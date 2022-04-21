@@ -1,30 +1,23 @@
-Unity Editor version:    2021.2.6f1 (8c4e826ba445)
-Branch:                  2021.2/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 11.2.3 (Build 20D91)
-Darwin version:          20.3.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2021.2/staging' branch; Version is '2021.2.6f1 (8c4e826ba445) revision 9195138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.2.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4
+C:/Users/baust/OneDrive/Desktop/school/2022/Games/VideoGame/final-project-game/Assessment 4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63656
-Successfully changed project path to: /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4
-/Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4
+60943
+Successfully changed project path to: C:/Users/baust/OneDrive/Desktop/school/2022/Games/VideoGame/final-project-game/Assessment 4
+C:/Users/baust/OneDrive/Desktop/school/2022/Games/VideoGame/final-project-game/Assessment 4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,564 +47,505 @@ Successfully changed project path to: /Users/zhuzijia/Desktop/Itro Game Design/A
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.6f1 (8c4e826ba445)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/baust/OneDrive/Desktop/school/2022/Games/VideoGame/final-project-game/Assessment 4/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-C27F591 preferred device: AMD Radeon Pro 560 (high power)
-Metal devices available: 2
-0: AMD Radeon Pro 560 (high power)
-1: Intel(R) HD Graphics 630 (low power)
-Using device AMD Radeon Pro 560 (high power)
-Initializing Metal device caps: AMD Radeon Pro 560
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.9729
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004153 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.008753 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  0.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (192ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (192ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003909 seconds.
+Registered in 0.005086 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baust\OneDrive\Desktop\school\2022\Games\VideoGame\final-project-game\Assessment 4\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baust\OneDrive\Desktop\school\2022\Games\VideoGame\final-project-game\Assessment 4\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
+- Completed reload, in  0.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1492ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1179ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (226ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (526ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (91.6 KB). Loaded Objects now: 3670.
-Memory consumption went from 221.1 MB to 221.0 MB.
-Total: 6.709945 ms (FindLiveObjects: 0.521548 ms CreateObjectMapping: 0.472489 ms MarkObjects: 5.460444 ms  DeleteObjects: 0.253424 ms)
+Unloading 24 unused Assets / (55.6 KB). Loaded Objects now: 3673.
+Memory consumption went from 113.0 MB to 112.9 MB.
+Total: 3.065400 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.590700 ms  DeleteObjects: 0.078100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 97272.495964 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials
-  artifactKey: Guid(ebd38e07e82bb3c47b1422ab82cafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials using Guid(ebd38e07e82bb3c47b1422ab82cafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde6226ea4106d7e58b76860c08ce5bc') in 0.010143 seconds 
+  Time since last request: 174184.813231 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .001.prefab
+  artifactKey: Guid(cb44d8fd75f3fbb4282db1b1d9ac8863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .001.prefab using Guid(cb44d8fd75f3fbb4282db1b1d9ac8863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6495f16610c381e98ccd841ae3894743') in 0.112737 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.865679 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/bag.mat
-  artifactKey: Guid(f0edf2d69e3dabf4c9d21abb095d8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/bag.mat using Guid(f0edf2d69e3dabf4c9d21abb095d8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83390821fa0da8929ce18f74204f500') in 2.432291 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .001.prefab
+  artifactKey: Guid(80ad8acad2095ec429dc93550be27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .001.prefab using Guid(80ad8acad2095ec429dc93550be27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd165d0fabd33d0777771549807946f84') in 0.020352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/oldPaper.mat
-  artifactKey: Guid(c87a3eabae9aaf845a2892a2f68d63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/oldPaper.mat using Guid(c87a3eabae9aaf845a2892a2f68d63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5f2cb1b85d286ed09a895dfb191500') in 0.026183 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .002.prefab
+  artifactKey: Guid(dc6a28e3fe1674b43a1d7bbe0cd72372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .002.prefab using Guid(dc6a28e3fe1674b43a1d7bbe0cd72372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35112972b95ccec2eba2bdf27ad8b338') in 0.015933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/felt.mat
-  artifactKey: Guid(1634fd1d64638cc428341b0b39ae2bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/felt.mat using Guid(1634fd1d64638cc428341b0b39ae2bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7f4cd419295b8162fc6cdd9fd72b54') in 0.019640 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts
+  artifactKey: Guid(38c88a11dac9f2642a54c29b1cb21f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts using Guid(38c88a11dac9f2642a54c29b1cb21f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45745df205feeb426d8023e4d9b8e1') in 0.005916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/mesh.mat
-  artifactKey: Guid(1f7ba2aeb8e5b3840ace1eed82be7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/mesh.mat using Guid(1f7ba2aeb8e5b3840ace1eed82be7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8ddb39185518dd046d22785ee5617') in 0.014900 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .003.prefab
+  artifactKey: Guid(8b5f984701f270d45bc4566492551ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .003.prefab using Guid(8b5f984701f270d45bc4566492551ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e30016d832ecac4d98517823fead65') in 0.016160 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/prop books_.mat
-  artifactKey: Guid(143bcd2e1a509994eb39b7c33aee09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/prop books_.mat using Guid(143bcd2e1a509994eb39b7c33aee09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29815f6589f1b9c8309b1964f867ce14') in 0.020594 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/roof.prefab
+  artifactKey: Guid(8dc188934f6b329449032343d9fbe97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/roof.prefab using Guid(8dc188934f6b329449032343d9fbe97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1607a7b3fb3af106124daeb3fc280104') in 0.023020 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/WoodFlooryellow.mat
-  artifactKey: Guid(33ccbc197feadba4d8a8d3f9e9c0bc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/WoodFlooryellow.mat using Guid(33ccbc197feadba4d8a8d3f9e9c0bc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb35ae2682e98a17d0f7ff826a05a16') in 0.016720 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/door way  small.prefab
+  artifactKey: Guid(7105006936fd0814f80849e074b32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/door way  small.prefab using Guid(7105006936fd0814f80849e074b32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474a9ceabd2b93e10cb34a62a938df90') in 0.015966 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/old Metal.mat
-  artifactKey: Guid(04221f44a21ee4949aa20bdbab948a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/old Metal.mat using Guid(04221f44a21ee4949aa20bdbab948a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26531d8a24de2330dcdd3cff3accacf8') in 0.015820 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/Door.001.prefab
+  artifactKey: Guid(5b41ebfbc9bf5b9418934ea9e42e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/Door.001.prefab using Guid(5b41ebfbc9bf5b9418934ea9e42e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa75db356bad73a403a9267ab0f7761') in 0.017253 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/Rough plaster.mat
-  artifactKey: Guid(808b2770df0799342b7177046fa2cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/Rough plaster.mat using Guid(808b2770df0799342b7177046fa2cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4cd15ef3bb2d78338304595dca810c') in 0.015339 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/door frame  big.prefab
+  artifactKey: Guid(13b3886574de8cf42b9771560c93433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/door frame  big.prefab using Guid(13b3886574de8cf42b9771560c93433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eaa631d0d8fc288196b4ef0dfa861f') in 0.015783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/glass.mat
-  artifactKey: Guid(904f38aeabe3dd74e831e34ef58a1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/glass.mat using Guid(904f38aeabe3dd74e831e34ef58a1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177b5913ed6cbdab2680048670dff93') in 0.015010 seconds 
+  Time since last request: 135.963677 seconds.
+  path: Assets/pixel horror abandoned classroom/Models/classRoom.fbx
+  artifactKey: Guid(33ad68354734dda458f343fe84ec9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Models/classRoom.fbx using Guid(33ad68354734dda458f343fe84ec9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372d79a5b0679834f07156201ff74b4') in 0.628545 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/Old_Metal.001.mat
-  artifactKey: Guid(a792e88fea527054a9782c46ff8deb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/Old_Metal.001.mat using Guid(a792e88fea527054a9782c46ff8deb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec44d3823c5b91da77c472ea6560def6') in 0.013084 seconds 
+  Time since last request: 2.456203 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/big props/book shelf.prefab
+  artifactKey: Guid(9180e40bf0ff46049a61ef86faff34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/big props/book shelf.prefab using Guid(9180e40bf0ff46049a61ef86faff34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323fdafb32d9f96a588478f7186d81f') in 0.014205 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/pixel horror abandoned classroom/Materials/chalk bord.mat
-  artifactKey: Guid(9f736cc6373db9b459976858960dd68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Materials/chalk bord.mat using Guid(9f736cc6373db9b459976858960dd68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3495892a95f6af004ca1f9038ef4890') in 0.015008 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/big props/cubby holes.prefab
+  artifactKey: Guid(f01f9b28ee5689c4d929b44de8a36ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/big props/cubby holes.prefab using Guid(f01f9b28ee5689c4d929b44de8a36ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42ff1678cc6bfde79f044bc8d40695c') in 0.015283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.506592 seconds.
-  path: Assets/pixel horror abandoned classroom/scripts
-  artifactKey: Guid(b8e653fb04761834e940d6930fed9a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/scripts using Guid(b8e653fb04761834e940d6930fed9a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96f818ef8b189a53a8fb672ba112f53') in 0.007064 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/big props/techer desk.prefab
+  artifactKey: Guid(2ad0a5edf5d0bf745a2981bc99d25c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/big props/techer desk.prefab using Guid(2ad0a5edf5d0bf745a2981bc99d25c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3474f217b635fd5bd4209df6ab4f7f93') in 0.033979 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.394157 seconds.
-  path: Assets/pixel horror abandoned classroom/scripts/MouseLook.cs
-  artifactKey: Guid(1f5f2618844127b43808bcd77cb5a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/scripts/MouseLook.cs using Guid(1f5f2618844127b43808bcd77cb5a600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c1ff996ddbe5ee6eba01d094df7e45') in 0.418623 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/big props/lectern.prefab
+  artifactKey: Guid(3d1af06ab825b2c45b71871f9215fa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/big props/lectern.prefab using Guid(3d1af06ab825b2c45b71871f9215fa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aae7619ca4e0b349cead196a280b07') in 0.016717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.367740 seconds.
-  path: Assets/pixel horror abandoned classroom/scripts/PlayerMovement.cs
-  artifactKey: Guid(925984a65b5a1f045ae28c3ce8dcc0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/scripts/PlayerMovement.cs using Guid(925984a65b5a1f045ae28c3ce8dcc0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92997864177d1cfabe4c2f8c0b253a69') in 0.001937 seconds 
+  Time since last request: 4.823244 seconds.
+  path: Assets/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(6c3c86c7608670a46b1a571e8c5f19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(6c3c86c7608670a46b1a571e8c5f19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c883035565630f68f9bffc20690c3a') in 0.008896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c02dda5f3eacfc6489705663332eb904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr using Guid(c02dda5f3eacfc6489705663332eb904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a351ef3c085352b364643ebb897231ec') in 0.021464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(63c6ae5d6c158b848ba8c26305821adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png using Guid(63c6ae5d6c158b848ba8c26305821adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feae150a79a10177f765faed8144de3') in 0.016192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.656125 seconds.
+  path: Assets/Scenes/Tut_Level.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6729fe9796951a749581af9cfd7d0cce') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.120446 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2b651dcaa64534af2855d6383a6dc84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2b651dcaa64534af2855d6383a6dc84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18412c6c2296fa8193c8b0f5a225f5ec') in 0.006694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.392777 seconds.
+  path: Assets/pixel horror abandoned classroom/Textures/bag.png
+  artifactKey: Guid(493c97b357af94b40b3276e1e176283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Textures/bag.png using Guid(493c97b357af94b40b3276e1e176283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff83e946a4039e52dd63f29a993f98b') in 0.018722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/pixel horror abandoned classroom/Prefabs/Player parts/crosshairs.png
+  artifactKey: Guid(6eada66cca8bcb84ca398ab2ec9dc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Prefabs/Player parts/crosshairs.png using Guid(6eada66cca8bcb84ca398ab2ec9dc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c686cc276870297e5445723d776d8ad7') in 0.027379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pixel horror abandoned classroom/Textures/felt.png
+  artifactKey: Guid(a3d2ef34d8d241043a3292071292e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom/Textures/felt.png using Guid(a3d2ef34d8d241043a3292071292e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189e2cd04bd4982e00651b2e676aa986') in 0.014898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.655114 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.006414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.816994 seconds.
+  path: Assets/Scenes/Tut_Level
+  artifactKey: Guid(1479a215087534e44aebe7ae3c303b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level using Guid(1479a215087534e44aebe7ae3c303b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2a2e71ae06091962f8b14f5ac6b09') in 0.005143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.038933 seconds.
+  path: Assets/Scenes/Tut_Level/Scripts
+  artifactKey: Guid(612371c984742fb46b5b99e3145c0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Scripts using Guid(612371c984742fb46b5b99e3145c0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a0604635e165d6d35df3e49c92bb4f') in 0.005058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.645663 seconds.
+  path: Assets/Scenes/Tut_Level/Scripts 1
+  artifactKey: Guid(f9095224fc4161c4f8bff3b099548189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Scripts 1 using Guid(f9095224fc4161c4f8bff3b099548189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683bd2ece4adbf7c666a84595be26f07') in 0.006132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.627934 seconds.
+  path: Assets/Scenes/Tut_Level/Scripts 2
+  artifactKey: Guid(5bc907744ede1bb4587c36831338599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Scripts 2 using Guid(5bc907744ede1bb4587c36831338599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b89f81183f40b19acc42bc0dc6fb9a') in 0.005822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.106298 seconds.
+  path: Assets/Scenes/Tut_Level/Assets
+  artifactKey: Guid(f9095224fc4161c4f8bff3b099548189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Assets using Guid(f9095224fc4161c4f8bff3b099548189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34bd35351884ee3f6a96bdaf7407b95') in 0.005588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.066207 seconds.
+  path: Assets/Scenes/Tut_Level/Prefab
+  artifactKey: Guid(5bc907744ede1bb4587c36831338599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Prefab using Guid(5bc907744ede1bb4587c36831338599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd4e5f35c0b052c81dfd8b52a6386f') in 0.005742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.955616 seconds.
+  path: Assets/Scenes/Tut_Level/20 by 20 orthogonal maze.png
+  artifactKey: Guid(b0404186679853e42ac421e761077842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/20 by 20 orthogonal maze.png using Guid(b0404186679853e42ac421e761077842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06beba6c1dc86b342366ceee0e3c00fc') in 0.014794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.009432 seconds.
+  path: Assets/Scenes/Tut_Level/Assets/NewBrush.brush
+  artifactKey: Guid(a9f41892b32d0624aa734b9746ae461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Assets/NewBrush.brush using Guid(a9f41892b32d0624aa734b9746ae461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9b9b0b44b27b616e207740959d4f63') in 0.021006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.778825 seconds.
+  path: Assets/Scenes/Tut_Level/Assets/NewBrush.brush
+  artifactKey: Guid(a9f41892b32d0624aa734b9746ae461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tut_Level/Assets/NewBrush.brush using Guid(a9f41892b32d0624aa734b9746ae461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e4366f80744369fc94d429a0105ae') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.180199 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(92b44b7b4b8c19242877efd8f1262651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(92b44b7b4b8c19242877efd8f1262651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832ad05656c2568fb2b46784f2733f23') in 0.018100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.905823 seconds.
+  path: Assets/Free_old_yellow_concrete
+  artifactKey: Guid(df13c355ec1de09418743c46e1561e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_old_yellow_concrete using Guid(df13c355ec1de09418743c46e1561e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e281abfa248eda74b154809c72be86') in 0.006371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.949693 seconds.
+  path: Assets/pixel horror abandoned classroom
+  artifactKey: Guid(ed0f020d5fdd7412fb8979d958163cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel horror abandoned classroom using Guid(ed0f020d5fdd7412fb8979d958163cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbdbf85cd8fce56a2597cbc00e45de') in 0.007275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229099 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.005676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829801 seconds.
+  path: Assets/UnityStore
+  artifactKey: Guid(1f276e317d4be1e438e1a7a9f2271681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore using Guid(1f276e317d4be1e438e1a7a9f2271681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d02d7491b2a455f576a2ee389ad9e0d') in 0.005734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.386445 seconds.
+  path: Assets/UnityStore/Free_old_yellow_concrete/free_concrete_material.mat
+  artifactKey: Guid(03c483dce419c334da5816033e8d67da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/Free_old_yellow_concrete/free_concrete_material.mat using Guid(03c483dce419c334da5816033e8d67da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c84b434858f7c0aa3c8847b1b03d59') in 0.305138 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003004 seconds.
+Registered in 0.004638 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/zhuzijia/Desktop/Itro Game Design/A4/final-project-game/Assessment 4/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baust\OneDrive\Desktop\school\2022\Games\VideoGame\final-project-game\Assessment 4\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\baust\OneDrive\Desktop\school\2022\Games\VideoGame\final-project-game\Assessment 4\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.966 seconds
+- Completed reload, in  0.915 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1969ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1582ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (619ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (638ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (273ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (454ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3711.
-Memory consumption went from 236.0 MB to 235.9 MB.
-Total: 5.174052 ms (FindLiveObjects: 0.460524 ms CreateObjectMapping: 0.482177 ms MarkObjects: 4.134858 ms  DeleteObjects: 0.095043 ms)
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 3818.
+Memory consumption went from 124.0 MB to 123.5 MB.
+Total: 2.997600 ms (FindLiveObjects: 0.351900 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.284300 ms  DeleteObjects: 0.261800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.340472 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/bag.png
-  artifactKey: Guid(493c97b357af94b40b3276e1e176283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/bag.png using Guid(493c97b357af94b40b3276e1e176283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5ee6116573e47d072b55cb78a3fe5') in 1.955082 seconds 
+  Time since last request: 467.295342 seconds.
+  path: Assets/New Terrain Material.mat
+  artifactKey: Guid(2f3b61da5b3fe6f4ca037dd378fc96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain Material.mat using Guid(2f3b61da5b3fe6f4ca037dd378fc96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9415ed1be5f2780fbd1bdfb1bb77fc') in 0.063424 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/BookBlock.png
-  artifactKey: Guid(eeb8d843f5297754f88a16e2c1dd172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/BookBlock.png using Guid(eeb8d843f5297754f88a16e2c1dd172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed8596b556638ac13a73b439433a88e') in 0.015762 seconds 
+  Time since last request: 0.736653 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/glass.mat
+  artifactKey: Guid(904f38aeabe3dd74e831e34ef58a1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/glass.mat using Guid(904f38aeabe3dd74e831e34ef58a1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dd5cc155febf30594a114ac2e650a1') in 0.028742 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/ConcreteFloor.png
-  artifactKey: Guid(d4eefa2f05ac99e43800ba4c4011dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/ConcreteFloor.png using Guid(d4eefa2f05ac99e43800ba4c4011dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8142e01c41ff27a34e05b218de223aa') in 0.012375 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/oldGreen Pant.mat
+  artifactKey: Guid(5f8af11b2562a194189d5c6730df9b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/oldGreen Pant.mat using Guid(5f8af11b2562a194189d5c6730df9b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d57d09224a3e217f9b03676ce45eb62') in 0.013786 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/oldBooks.png
-  artifactKey: Guid(581a1160d36894446983d7b5557ac7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/oldBooks.png using Guid(581a1160d36894446983d7b5557ac7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ff1d6e17fd707bec42ef2b14847fa3') in 0.009804 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/old  Plywood yellow_.mat
+  artifactKey: Guid(6168c00d7ff4d714db4e4848661876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/old  Plywood yellow_.mat using Guid(6168c00d7ff4d714db4e4848661876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a7ab9f4bd96eeeb395208e8e7e4a34') in 0.013120 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/felt.png
-  artifactKey: Guid(a3d2ef34d8d241043a3292071292e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/felt.png using Guid(a3d2ef34d8d241043a3292071292e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb0fef11a5307902e09ec52f3840508') in 0.008776 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/old Metal.mat
+  artifactKey: Guid(04221f44a21ee4949aa20bdbab948a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/old Metal.mat using Guid(04221f44a21ee4949aa20bdbab948a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0914b796d571cd40a53e85a939b41466') in 0.013552 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/oldWoodYellow.png
-  artifactKey: Guid(3c8ec8dbbbdd0094ab4de62f12b3c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/oldWoodYellow.png using Guid(3c8ec8dbbbdd0094ab4de62f12b3c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed8dde43301f8f2c75b12caf267db60') in 0.013012 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Old_Metal.001.mat
+  artifactKey: Guid(a792e88fea527054a9782c46ff8deb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Old_Metal.001.mat using Guid(a792e88fea527054a9782c46ff8deb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb1e1643028a0291958331ff9d5b3d2') in 0.013171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/pixel horror abandoned classroom/Textures/oldaluminium.png
-  artifactKey: Guid(4991cbf4d6fc9194aaa3c94a2e05e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Textures/oldaluminium.png using Guid(4991cbf4d6fc9194aaa3c94a2e05e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d35a138ee70cf936e730ddaabdcf67') in 0.011783 seconds 
+  Time since last request: 0.456232 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/oldPaper.mat
+  artifactKey: Guid(c87a3eabae9aaf845a2892a2f68d63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/oldPaper.mat using Guid(c87a3eabae9aaf845a2892a2f68d63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faad579d141ad6c13b33e0936aa318b') in 0.019764 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.193979 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/column.prefab
-  artifactKey: Guid(32db765468e2bb3448932182aca62ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/column.prefab using Guid(32db765468e2bb3448932182aca62ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af7950742f44bd7a88715efbf58fa4e') in 0.660502 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/RippedCloth.mat
+  artifactKey: Guid(a575b13147893c748a70d521bda682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/RippedCloth.mat using Guid(a575b13147893c748a70d521bda682c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d46974c39d6976fdc144a262479b51') in 0.017258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .001.prefab
-  artifactKey: Guid(80ad8acad2095ec429dc93550be27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/walls .001.prefab using Guid(80ad8acad2095ec429dc93550be27349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daac3c3cf14052b0168ca5f1c302a0bb') in 0.017957 seconds 
+  Time since last request: 0.038504 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Rough plaster.mat
+  artifactKey: Guid(808b2770df0799342b7177046fa2cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Rough plaster.mat using Guid(808b2770df0799342b7177046fa2cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eb289ecdaa09c13c45e342ef678b3d') in 0.015463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/tiled wall .prefab
-  artifactKey: Guid(e3ccae09c65803246a6cfce0b08c6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/tiled wall .prefab using Guid(e3ccae09c65803246a6cfce0b08c6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9487ea4a4959d20c5628569959ac8398') in 0.017874 seconds 
+  Time since last request: 0.177012 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Soap.mat
+  artifactKey: Guid(6e31eb3c68c508742886f3e890bf7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Soap.mat using Guid(6e31eb3c68c508742886f3e890bf7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfebd2e84ddc0216ae44565e4253c4f') in 0.013358 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .002.prefab
-  artifactKey: Guid(11b82af52bcf0984f85f05801dc7c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .002.prefab using Guid(11b82af52bcf0984f85f05801dc7c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db21fbb39438973c62a1e0d6dee8d9c') in 0.016668 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/stationery_.mat
+  artifactKey: Guid(634c8c61ad973c64fb371007f32d2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/stationery_.mat using Guid(634c8c61ad973c64fb371007f32d2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e65a902e0c7f1cd7bca355f8424f28') in 0.015677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .prefab
-  artifactKey: Guid(c50eafb2d4bd3a24c8689877d4b33964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/floor big .prefab using Guid(c50eafb2d4bd3a24c8689877d4b33964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb2b13979c1fb74698e3c4d465ff5db') in 0.016251 seconds 
+  Time since last request: 0.035981 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/WoodFlooryellow.mat
+  artifactKey: Guid(33ccbc197feadba4d8a8d3f9e9c0bc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/WoodFlooryellow.mat using Guid(33ccbc197feadba4d8a8d3f9e9c0bc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b084f64836175564b9657ee807530') in 0.012742 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/Door.001.prefab
-  artifactKey: Guid(5b41ebfbc9bf5b9418934ea9e42e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/Door.001.prefab using Guid(5b41ebfbc9bf5b9418934ea9e42e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ac963ebb2f9c8007d307dc88294b94') in 0.015674 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Worn Wood yellow_.mat
+  artifactKey: Guid(456f29c4310ecf044bb5f2f0d0525f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Worn Wood yellow_.mat using Guid(456f29c4310ecf044bb5f2f0d0525f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c3d3ee73c8d7eeb0660e8f8cc6e423') in 0.014123 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/pixel horror abandoned classroom/Prefabs/Room parts/door frame  big.prefab
-  artifactKey: Guid(13b3886574de8cf42b9771560c93433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Prefabs/Room parts/door frame  big.prefab using Guid(13b3886574de8cf42b9771560c93433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b76a35b0bb8f9b406cf47b2a7b607f7') in 0.011334 seconds 
+  Time since last request: 9.710230 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/bag.mat
+  artifactKey: Guid(f0edf2d69e3dabf4c9d21abb095d8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/bag.mat using Guid(f0edf2d69e3dabf4c9d21abb095d8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4083712214c57eaf7555028d0e2205c') in 0.013824 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.117640 seconds.
-  path: Assets/pixel horror abandoned classroom/Models/classRoom.fbx
-  artifactKey: Guid(33ad68354734dda458f343fe84ec9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/Models/classRoom.fbx using Guid(33ad68354734dda458f343fe84ec9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2caf0a1ea0a676c5c66794a31d8767c') in 1.431008 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Book  backs_.mat
+  artifactKey: Guid(3d292fedd99286c45ab52ea854a50914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Book  backs_.mat using Guid(3d292fedd99286c45ab52ea854a50914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790373c6ace1bb716385d5c62dfe6e4f') in 0.022548 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.887876 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/bag .prefab
-  artifactKey: Guid(52b36a6963f51574cb5ff4deae14b2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/bag .prefab using Guid(52b36a6963f51574cb5ff4deae14b2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649ce32a6b8d15ead7ec287b2a1db1dc') in 0.020868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book block .prefab
-  artifactKey: Guid(dbe6b511c218eb845b56bd2749b7a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book block .prefab using Guid(dbe6b511c218eb845b56bd2749b7a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf098396fed555a09ae4360d8c3ec2') in 0.013959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.008.prefab
-  artifactKey: Guid(86efdafd1c8fa5446a337a3d0116f897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.008.prefab using Guid(86efdafd1c8fa5446a337a3d0116f897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40720a10747381ce07f1b87b68ec0a7d') in 0.013188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.006.prefab
-  artifactKey: Guid(e6b991178eeac48458ba086d3bc48400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.006.prefab using Guid(e6b991178eeac48458ba086d3bc48400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451a0f562d389393f7340cbc5f07dc5c') in 0.013017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.004.prefab
-  artifactKey: Guid(cdd0acc952773e148bb4ce5bb0108054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.004.prefab using Guid(cdd0acc952773e148bb4ce5bb0108054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571494421b1c65053e1123ce783169d') in 0.011080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.009.prefab
-  artifactKey: Guid(65f77e67e8042844389f7f9be5c7b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.009.prefab using Guid(65f77e67e8042844389f7f9be5c7b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c587fe208323df20f946a06d6e9c0997') in 0.012921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.005.prefab
-  artifactKey: Guid(bab1988f8123f2c42a149c0b45972025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.005.prefab using Guid(bab1988f8123f2c42a149c0b45972025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09517a5ed1cdc361ee2315c59dd44cd') in 0.010418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.022664 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/book.010.prefab
-  artifactKey: Guid(37baa8c72ffe37140bdcfb8193a8dce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/book.010.prefab using Guid(37baa8c72ffe37140bdcfb8193a8dce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0858cf0b60b73ec045211a2f17608d8c') in 0.012243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/cloured pencil.003.prefab
-  artifactKey: Guid(e1c6c271eedfece48b058381760b4e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/cloured pencil.003.prefab using Guid(e1c6c271eedfece48b058381760b4e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8fc13f9f1154c1ed0a33a4c8dcca16') in 0.014038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/floor big .prefab
-  artifactKey: Guid(68634d6ff8a795348a82b7df384c8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/floor big .prefab using Guid(68634d6ff8a795348a82b7df384c8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e58f2aea1a30f29fc5cac2862448c') in 0.011755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/column.prefab
-  artifactKey: Guid(3c11ad9ea9ed1514caf8bae20b8801a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/column.prefab using Guid(3c11ad9ea9ed1514caf8bae20b8801a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7d775cadac406895c68ecb0ad1facc') in 0.013222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/bord.prefab
-  artifactKey: Guid(f55ef0ed7ef94e443844d1dfd76f2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/bord.prefab using Guid(f55ef0ed7ef94e443844d1dfd76f2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d14d9ee615efb584f6f57475bb5e591') in 0.013764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/desk.prefab
-  artifactKey: Guid(4636b61ebb1bfdb4e81813ba9c2e6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/desk.prefab using Guid(4636b61ebb1bfdb4e81813ba9c2e6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff52564ceb5a5f056eaaa8329bff83b1') in 0.010164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/cabent  Door B.prefab
-  artifactKey: Guid(23289dd8426103e4081f3ac8184064b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/cabent  Door B.prefab using Guid(23289dd8426103e4081f3ac8184064b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81674488d2c3599f0cb8bdc0163082b') in 0.015368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/Door.001.prefab
-  artifactKey: Guid(1448229223adc3a4a968cdb906840f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/Door.001.prefab using Guid(1448229223adc3a4a968cdb906840f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4a4b06dbecc61e054633a274b4ab4') in 0.011047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/eraser A .prefab
-  artifactKey: Guid(4f7fad194bbd9db41b6e891960abfec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/eraser A .prefab using Guid(4f7fad194bbd9db41b6e891960abfec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599bb424bde55b31d3b01227fb80f72d') in 0.009142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/chair.prefab
-  artifactKey: Guid(d37a1f00b9a94ab4088a5cff725fafc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/chair.prefab using Guid(d37a1f00b9a94ab4088a5cff725fafc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0d7e27d85ed6549c1842f36aef8335') in 0.013314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/cubby holes.prefab
-  artifactKey: Guid(fbf601462fd87624abf5452258d2a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/cubby holes.prefab using Guid(fbf601462fd87624abf5452258d2a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33516719d80142564b8bf166e64f79f0') in 0.010363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/elephant .prefab
-  artifactKey: Guid(7adfb2e3bec5d8140bffb097bd8f5e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/elephant .prefab using Guid(7adfb2e3bec5d8140bffb097bd8f5e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ac9fe7b0e17ffccc18794ae69a4b3') in 0.015812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/eraser B .prefab
-  artifactKey: Guid(7a0edcb13122ab84ea7f877ba20ee106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/eraser B .prefab using Guid(7a0edcb13122ab84ea7f877ba20ee106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db6708e7232ff59f8bf898c299697df') in 0.011663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/door way  small.prefab
-  artifactKey: Guid(12364ec16bfd94a4580a828756841922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/door way  small.prefab using Guid(12364ec16bfd94a4580a828756841922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bfa96c1cc3bfa9ce9e33ad13edca1b') in 0.009305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.032257 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/old dinosaws.001.prefab
-  artifactKey: Guid(49fb045f142347e4a8c3b0fe2de24f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/old dinosaws.001.prefab using Guid(49fb045f142347e4a8c3b0fe2de24f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8c659aa23cb8c077b3937bd40ef1f6') in 0.014094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/pencils.prefab
-  artifactKey: Guid(ddaebfabd6d615441b135193690719e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/pencils.prefab using Guid(ddaebfabd6d615441b135193690719e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1b2933a58c55064d47793a58726215') in 0.010374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/pencils.002.prefab
-  artifactKey: Guid(202770a7d8e750e47b68844002c7f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/pencils.002.prefab using Guid(202770a7d8e750e47b68844002c7f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f67f653e9c486f1633e21e873a160e6') in 0.010504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/old dinosaws.prefab
-  artifactKey: Guid(fd75883626af05d4088c92284879a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/old dinosaws.prefab using Guid(fd75883626af05d4088c92284879a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a3ae2a4885823fe94dbd158728a02f') in 0.013997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/pencl cace lid .prefab
-  artifactKey: Guid(7ff74b18ec4745b4ca839936e6fe8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/pencl cace lid .prefab using Guid(7ff74b18ec4745b4ca839936e6fe8a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e84a90ad27efbd9e7113763d9f935a3') in 0.013799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.151955 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/pencl case .prefab
-  artifactKey: Guid(70b01786d4967464db25ea51445e3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/pencl case .prefab using Guid(70b01786d4967464db25ea51445e3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccabd73c528a31aeab0694317766671b') in 0.015331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/roof.002 1.prefab
-  artifactKey: Guid(22f942a48a8513245a48af41ff1272d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/roof.002 1.prefab using Guid(22f942a48a8513245a48af41ff1272d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1dafc2d1eb2f86ffe2be836c297003') in 0.016610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/walls .004.prefab
-  artifactKey: Guid(8e3e8902002affe438cb9cf946240cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/walls .004.prefab using Guid(8e3e8902002affe438cb9cf946240cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19910cb9de6ac9c61e261cfafa78644c') in 0.012010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/Roof.002.prefab
-  artifactKey: Guid(066534bb793e2ba48abf9b9aa08bc71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/Roof.002.prefab using Guid(066534bb793e2ba48abf9b9aa08bc71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad897293ca7e4a5e8923e9d591b31d0') in 0.013339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/soap.prefab
-  artifactKey: Guid(971fbf5d258c3e64995375a8e25d1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/soap.prefab using Guid(971fbf5d258c3e64995375a8e25d1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08cd9ced9fd40ffc40933a8acad1836') in 0.012336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/techer desk.prefab
-  artifactKey: Guid(b50b1fddad8e0fd41b2f3652cea83516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/techer desk.prefab using Guid(b50b1fddad8e0fd41b2f3652cea83516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e7a675b30540d5ee06cf4009b62353') in 0.011764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/walls .002.prefab
-  artifactKey: Guid(a582248f66eabc44e8fa2fd2420c9bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/walls .002.prefab using Guid(a582248f66eabc44e8fa2fd2420c9bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b8b07437db8af0f97797f3666c4752') in 0.015174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/walls .001.prefab
-  artifactKey: Guid(76cc0786c790f4046a4ee059bf106fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/walls .001.prefab using Guid(76cc0786c790f4046a4ee059bf106fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7ad53fe20ab0636bb999f11c4e0a4b') in 0.009739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/pixel horror abandoned classroom/mesh/walls .008.prefab
-  artifactKey: Guid(b4248924d4749344d99824f4d600bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror abandoned classroom/mesh/walls .008.prefab using Guid(b4248924d4749344d99824f4d600bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5392c51de93728ce270c08cdc9423f55') in 0.014632 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore/pixel horror abandoned classroom/Materials/Concrete tiles.mat
+  artifactKey: Guid(fba066998cbd31a4eb89f3b8a22e56f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore/pixel horror abandoned classroom/Materials/Concrete tiles.mat using Guid(fba066998cbd31a4eb89f3b8a22e56f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e39043bd298451d2ac80a775ed3b2') in 0.018973 seconds 
