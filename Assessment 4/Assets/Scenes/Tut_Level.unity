@@ -302,9 +302,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001080261524226842, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1146787131825339641, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: speed
-      value: 18
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1146787131825339641, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: JumpHight
@@ -312,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2034214726801263773, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_Name
-      value: 'player holder '
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3445389066855685587, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalScale.x
@@ -328,15 +332,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3445389066855685587, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -173.4
+      value: -97.1
       objectReference: {fileID: 0}
     - target: {fileID: 3445389066855685587, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 137
+      value: 119.6
       objectReference: {fileID: 0}
     - target: {fileID: 3445389066855685587, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -285.8
+      value: -286.6
       objectReference: {fileID: 0}
     - target: {fileID: 5652447966745433183, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_RootOrder
@@ -344,11 +348,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5652447966745433183, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 700.6
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 5652447966745433183, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9393446
+      value: -70.6
       objectReference: {fileID: 0}
     - target: {fileID: 5652447966745433183, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -382,9 +386,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5945290239308819514, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: far clip plane
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5945290239308819517, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.4
+      value: 46.81
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
