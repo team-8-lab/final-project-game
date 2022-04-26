@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class DontDestroy : MonoBehaviour
 {
-    public string objectID;
-
-    void Awake()
-    {
-        objectID = name + transform.position.ToString();
-    }
 
     void Start()
     {
