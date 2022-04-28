@@ -25,11 +25,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
+<<<<<<< HEAD
       "version": "1.15.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0",
+=======
+      "version": "1.15.15",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+>>>>>>> Lights
         "com.unity.services.core": "1.0.1"
       },
       "url": "https://packages.unity.com"
@@ -63,7 +70,11 @@
       }
     },
     "com.unity.ide.rider": {
+<<<<<<< HEAD
       "version": "3.0.7",
+=======
+      "version": "3.0.13",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -72,7 +83,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
+<<<<<<< HEAD
       "version": "2.0.12",
+=======
+      "version": "2.0.14",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -81,12 +96,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
+<<<<<<< HEAD
       "version": "1.2.4",
+=======
+      "version": "1.2.5",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0",
       "depth": 1,
@@ -94,6 +114,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Lights
     "com.unity.performance.profile-analyzer": {
       "version": "1.1.1",
       "depth": 1,
@@ -134,7 +156,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
+<<<<<<< HEAD
       "version": "1.1.29",
+=======
+      "version": "1.1.31",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -164,7 +190,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
+<<<<<<< HEAD
       "version": "1.6.2",
+=======
+      "version": "1.6.4",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -195,7 +225,11 @@
       }
     },
     "com.unity.visualscripting": {
+<<<<<<< HEAD
       "version": "1.7.5",
+=======
+      "version": "1.7.6",
+>>>>>>> Lights
       "depth": 0,
       "source": "registry",
       "dependencies": {

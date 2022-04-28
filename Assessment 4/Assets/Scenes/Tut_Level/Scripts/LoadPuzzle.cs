@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 public class LoadPuzzle : MonoBehaviour
 {
 
+<<<<<<< HEAD
+=======
+    public LightController LC;
+
+>>>>>>> Lights
     void OnTriggerStay(Collider other)
     {
         OnMouseDown();
@@ -15,5 +20,9 @@ public class LoadPuzzle : MonoBehaviour
     void OnMouseDown()
     {
         SceneManager.LoadScene("Tut_Puzzle1");
+<<<<<<< HEAD
+=======
+        LC.PuzzleComplete();
+>>>>>>> Lights
     }
 }

@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Puzzle
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -41,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Pieces
-    uniqueID: 1751222291
     locked: 0
