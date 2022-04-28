@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
 using UnityEngine.SceneManagement;
-=======
->>>>>>> Lights
+
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerHandler : MonoBehaviour
@@ -13,10 +11,6 @@ public class PlayerHandler : MonoBehaviour
     public float speed = 50f;
     public float gravity = -9.81f;
     Vector3 V;
-<<<<<<< HEAD
-=======
-    
->>>>>>> Lights
 
     private void Awake()
     {
@@ -39,8 +33,5 @@ public class PlayerHandler : MonoBehaviour
         V.y += gravity * Time.deltaTime;
         controller.Move(V * Time.deltaTime);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> Lights
 }
