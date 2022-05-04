@@ -11,6 +11,11 @@ public class MainMenu : MonoBehaviour
         Destroy(GameObject.Find("Maze"));
         Destroy(GameObject.Find("Player"));
         Destroy(GameObject.Find("Lamps"));
+        Destroy(GameObject.Find("Puzzle_Lamp_ON (1)"));
+        Destroy(GameObject.Find("Puzzle_Lamp_ON (2)"));
+        Destroy(GameObject.Find("Puzzle_Lamp_ON (3)"));
+        Destroy(GameObject.Find("Puzzle_Lamp_ON (4)"));
+        Destroy(GameObject.Find("Puzzle_Lamp_ON (5)"));
 
     }
 
