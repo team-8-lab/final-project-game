@@ -24,5 +24,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Tut_Level");
     }
+
+    public void loadLevel1()
+    {
+        SceneManager.LoadScene("Level_1");
+    }
 }
 

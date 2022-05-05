@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tut_Level/Tut_Puzzle1.unity
     guid: 4fb33c0839b13f940be6e630ea61d409
+  - enabled: 1
+    path: Assets/Scenes/Tut_Level/Level_1.unity
+    guid: 7472d6f7576824fae84e9f480e3fa534
   m_configObjects: {}
