@@ -18,7 +18,16 @@ public class KeyDoor : MonoBehaviour
 
     public void OpenDoor()
     {
-        WinGame();
+        if(GetKeyType() == Key.KeyType.WallKey)
+        {
+            this.gameObject.SetActive(false);
+        }
+        else
+        {
+            WinGame();
+        }
+        
+        
     }
 
     public void WinGame()
