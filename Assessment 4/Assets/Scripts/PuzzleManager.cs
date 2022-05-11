@@ -32,7 +32,7 @@ public class PuzzleManager : MonoBehaviour
         correctPieces += 1;
         if (correctPieces == totalPieces)
         {
-            //SceneManager.LoadScene("Tut_Level");
+            SceneManager.LoadScene("Tut_Level");
         }
     }
 
