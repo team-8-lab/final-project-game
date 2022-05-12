@@ -22,7 +22,9 @@ public class LightController : MonoBehaviour
         }
     }
 
-        PuzzleComplete();
+    void Update()
+    {
+        
     }
 
     public void PuzzleComplete(bool toggle)
