@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class PlayerHandler : MonoBehaviour
 {
     CharacterController controller;
-    public float speed = 200f;
+    public float speed = 50f;
+    //public float sprint = 200f;
     public float gravity = -9.81f;
     Vector3 V;
 
@@ -29,6 +30,11 @@ public class PlayerHandler : MonoBehaviour
         float Z = Input.GetAxis("Vertical");
         Vector3 M = transform.right * X + transform.forward * Z;
         controller.Move(M * speed * Time.deltaTime);
+
+        /*if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            controller.Move(M * sprint * Time.deltaTime);
+        }*/
 
         V.y += gravity * Time.deltaTime;
         controller.Move(V * Time.deltaTime);
