@@ -12,6 +12,8 @@ public class PlayerHandler : MonoBehaviour
     public float speed = 50f;
     public float gravity = -9.81f;
     Vector3 V;
+    private Scene currentScene;
+    private bool lockMovement;
 
     private void Awake()
     {
@@ -26,6 +28,16 @@ public class PlayerHandler : MonoBehaviour
             V.y = -2f;
         }
 
+        currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Tut_Level" || currentScene.name == "Level_1")
+        {
+            PlayerMove();
+        }
+        
+    }
+
+    void PlayerMove()
+    {
         float X = Input.GetAxis("Horizontal");
         float Z = Input.GetAxis("Vertical");
         Vector3 M = transform.right * X + transform.forward * Z;
