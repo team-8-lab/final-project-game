@@ -9,9 +9,6 @@ public class DarknessTrigger : MonoBehaviour
 
     public GameObject blackOutSquare;
 
-    [SerializeField]
-    private GameObject losingPanel;
-
     public bool unlockCursor = false;
 
     private void OnTriggerStay(Collider other)
@@ -65,14 +62,7 @@ public class DarknessTrigger : MonoBehaviour
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        losingPanel.SetActive(true);
         unlockCursor = true;
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene("Main_Menu");
-        losingPanel.SetActive(false);
-        unlockCursor = false;
+        SceneManager.LoadScene("Lose_Scene");
     }
 }
