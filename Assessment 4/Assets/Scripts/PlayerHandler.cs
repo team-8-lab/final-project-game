@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHandler : MonoBehaviour
 {
     CharacterController controller;
-    public float speed = 50f;
+    public float speed = 200f;
     public float gravity = -9.81f;
     Vector3 V;
 
