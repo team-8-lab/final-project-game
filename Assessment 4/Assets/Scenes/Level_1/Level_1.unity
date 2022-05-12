@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.009
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.03137255, g: 0.03137255, b: 0.03137255, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -6242,6 +6242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyType: 0
   winningPanel: {fileID: 1022744140}
+  unlockCursor: 0
 --- !u!65 &1039959493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7592,6 +7593,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2329686895821661344, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: WinScreen
+      value: 
+      objectReference: {fileID: 1345223014}
+    - target: {fileID: 2329686895821661344, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: LoseScreen
+      value: 
+      objectReference: {fileID: 1345223013}
     - target: {fileID: 4171618066033504990, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7658,6 +7667,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+--- !u!1 &1345223013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8309962146105555047, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+  m_PrefabInstance: {fileID: 1345223012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1345223014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1022744140, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+  m_PrefabInstance: {fileID: 1345223012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1375982730
 GameObject:
   m_ObjectHideFlags: 0
@@ -10817,6 +10836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyType: 1
   winningPanel: {fileID: 1022744140}
+  unlockCursor: 0
 --- !u!65 &1857216158
 BoxCollider:
   m_ObjectHideFlags: 0

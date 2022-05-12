@@ -22,7 +22,8 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     public void loadTutorial()
     {
-        SceneManager.LoadScene("Tut_Level");
+        //SceneManager.LoadScene("Tut_Level");
+        SceneManager.LoadScene("Instruction_Scene");
     }
 
     public void loadLevel1()

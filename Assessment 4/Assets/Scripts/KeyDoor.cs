@@ -11,6 +11,8 @@ public class KeyDoor : MonoBehaviour
     [SerializeField]
     private GameObject winningPanel;
 
+    public bool unlockCursor = false;
+
     public Key.KeyType GetKeyType()
     {
         return keyType;
@@ -35,11 +37,13 @@ public class KeyDoor : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         winningPanel.SetActive(true);
+        unlockCursor = true;
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("Main_Menu");
         winningPanel.SetActive(false);
+        unlockCursor = false;
     }
 }

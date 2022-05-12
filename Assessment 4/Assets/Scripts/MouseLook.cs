@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
+
+    public GameObject WinScreen;
+    public GameObject LoseScreen;
     public float mouseSensitivity = 100f;
     public Transform PlayerBody;
     float Xrot = 0f;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -16,11 +20,21 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+        }
+
+        if (Cursor.lockState == CursorLockMode.None)
+        {
+            if (Input.GetMouseButtonDown(0) && !WinScreen.activeInHierarchy && !LoseScreen.activeInHierarchy)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
         }
 
         float mousex = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
