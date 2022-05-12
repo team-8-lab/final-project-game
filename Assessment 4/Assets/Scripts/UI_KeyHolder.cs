@@ -33,7 +33,7 @@ public class UI_KeyHolder : MonoBehaviour
         foreach(Transform child in container)
         {
             if (child == KeyImage) continue;
-            Destroy(child.gameObject);
+                Destroy(child.gameObject);
         }
 
         List<Key.KeyType> keyList = keyHolder.GetKeyList();
