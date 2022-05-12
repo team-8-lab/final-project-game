@@ -47,6 +47,7 @@ public class PuzzlePieces : MonoBehaviour
     private void OnMouseDown()
     {
         transform.Rotate(new Vector3(0, 0, 90));
+        transform.eulerAngles = new Vector3(0, 0, Mathf.Round(transform.eulerAngles.z));
 
         if (PossibleRotations > 1) {
             if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false)

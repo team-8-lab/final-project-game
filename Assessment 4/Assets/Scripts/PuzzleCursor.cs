@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PuzzleCursor : MonoBehaviour
 {
-    void Start()
+    void Update()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;

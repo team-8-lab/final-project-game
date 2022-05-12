@@ -7,6 +7,7 @@ public class PuzzleManager : MonoBehaviour
 {
     public GameObject PuzzleHolder;
     public GameObject[] Pieces;
+    public Scene currentPuzzle;
 
     [SerializeField]
     int totalPieces = 0;
@@ -17,6 +18,8 @@ public class PuzzleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        currentPuzzle = SceneManager.GetActiveScene();
         totalPieces = PuzzleHolder.transform.childCount;
 
         Pieces = new GameObject[totalPieces];
@@ -32,7 +35,8 @@ public class PuzzleManager : MonoBehaviour
         correctPieces += 1;
         if (correctPieces == totalPieces)
         {
-            //SceneManager.LoadScene("Tut_Level");
+            SceneManager.LoadScene("Tut_Level");
+            SceneManager.UnloadSceneAsync(currentPuzzle.buildIndex);
         }
     }
 
