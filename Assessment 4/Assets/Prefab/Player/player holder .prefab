@@ -917,7 +917,6 @@ GameObject:
   m_Component:
   - component: {fileID: 726569605173318484}
   - component: {fileID: 7805288634221417274}
-  - component: {fileID: 4343131819271826063}
   - component: {fileID: 1334721667086643645}
   m_Layer: 0
   m_Name: MinimapCamera
@@ -984,14 +983,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &4343131819271826063
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3054090381262713402}
-  m_Enabled: 1
 --- !u!114 &1334721667086643645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1040,7 +1031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0010958}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 640, y: 480}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1541483774031356579
