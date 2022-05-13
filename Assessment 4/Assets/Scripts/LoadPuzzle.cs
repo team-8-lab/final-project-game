@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class LoadPuzzle : MonoBehaviour
 {
 
+    public string currentScene;
+
     public LightController LC;
     private Color startColour;
 
@@ -22,7 +24,28 @@ public class LoadPuzzle : MonoBehaviour
 
     void OnMouseDown()
     {
-        SceneManager.LoadScene("Tut_Puzzle", LoadSceneMode.Additive);
+        currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene == "Tut_Level")
+        {
+            SceneManager.LoadScene("Tut_Puzzle1", LoadSceneMode.Additive);
+        }
+        
+
+        switch (currentScene)
+        {
+            case "Level_1":
+                SceneManager.LoadScene("Level1_Puzzle", LoadSceneMode.Additive);
+                break;
+            case "Level_2":
+                SceneManager.LoadScene("Level2_Puzzle", LoadSceneMode.Additive);
+                break;
+            case "Level_3":
+                SceneManager.LoadScene("Level3_Puzzle", LoadSceneMode.Additive);
+                break;
+            case "Level_4":
+                SceneManager.LoadScene("Level4_Puzzle", LoadSceneMode.Additive);
+                break;
+        }
         LC.PuzzleComplete(true);
     }
     void OnMouseOver()
