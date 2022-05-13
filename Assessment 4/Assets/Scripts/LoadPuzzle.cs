@@ -27,7 +27,7 @@ public class LoadPuzzle : MonoBehaviour
         currentScene = SceneManager.GetActiveScene().name;
         if (currentScene == "Tut_Level")
         {
-            SceneManager.LoadScene("Tut_Puzzle1", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Tut_Puzzle", LoadSceneMode.Additive);
         }
         
 
@@ -46,7 +46,6 @@ public class LoadPuzzle : MonoBehaviour
                 SceneManager.LoadScene("Level4_Puzzle", LoadSceneMode.Additive);
                 break;
         }
-        
         LC.PuzzleComplete(true);
     }
     void OnMouseOver()

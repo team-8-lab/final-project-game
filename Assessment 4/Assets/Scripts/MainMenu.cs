@@ -10,6 +10,10 @@ public class MainMenu : MonoBehaviour
     {
         Destroy(GameObject.Find("Maze"));
         Destroy(GameObject.Find("Player"));
+        Destroy(GameObject.Find("Lamps"));
+        Destroy(GameObject.Find("Door"));
+        Destroy(GameObject.Find("DarknessMesh"));
+        Destroy(GameObject.Find("DarknessMesh 2"));
         Destroy(GameObject.Find("Lamp_OFF"));
         Destroy(GameObject.Find("Puzzle_Lamp_ON"));
         Destroy(GameObject.Find("Lamp_ON_Light"));

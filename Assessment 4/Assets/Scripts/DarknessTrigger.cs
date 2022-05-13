@@ -43,6 +43,8 @@ public class DarknessTrigger : MonoBehaviour
                 blackOutSquare.GetComponent<Image>().color = objectColor;
                 yield return null;
             }
+
+            Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
             LoseGame();
         }
         else
@@ -63,6 +65,11 @@ public class DarknessTrigger : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         unlockCursor = true;
-        SceneManager.LoadScene("Lose_Scene");
+    }
+
+     public void MainMenu()
+    {
+        SceneManager.LoadScene("Main_Menu");
+        unlockCursor = false;
     }
 }
