@@ -70,7 +70,6 @@ public class DarknessTrigger : MonoBehaviour
      public void MainMenu()
     {
         SceneManager.LoadScene("Main_Menu");
-        losingPanel.SetActive(false);
         unlockCursor = false;
     }
 }
