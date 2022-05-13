@@ -19,7 +19,6 @@ public class PuzzleManager : MonoBehaviour
     void Start()
     {
         previousScene = SceneManager.GetActiveScene();
-        Debug.Log(previousScene.name);
         totalPieces = PuzzleHolder.transform.childCount;
 
         Pieces = new GameObject[totalPieces];

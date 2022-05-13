@@ -65,6 +65,7 @@ public class DarknessTrigger : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         unlockCursor = true;
+        SceneManager.LoadScene("Lose_Scene");
     }
 
      public void MainMenu()
