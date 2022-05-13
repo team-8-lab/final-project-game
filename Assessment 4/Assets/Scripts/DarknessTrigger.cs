@@ -46,6 +46,8 @@ public class DarknessTrigger : MonoBehaviour
                 blackOutSquare.GetComponent<Image>().color = objectColor;
                 yield return null;
             }
+
+            Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
             LoseGame();
         }
         else
@@ -69,7 +71,7 @@ public class DarknessTrigger : MonoBehaviour
         unlockCursor = true;
     }
 
-    public void MainMenu()
+     public void MainMenu()
     {
         SceneManager.LoadScene("Main_Menu");
         losingPanel.SetActive(false);

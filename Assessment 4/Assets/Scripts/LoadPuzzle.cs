@@ -22,7 +22,7 @@ public class LoadPuzzle : MonoBehaviour
 
     void OnMouseDown()
     {
-        SceneManager.LoadScene("Tut_Puzzle1", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Tut_Puzzle", LoadSceneMode.Additive);
         LC.PuzzleComplete(true);
     }
     void OnMouseOver()
