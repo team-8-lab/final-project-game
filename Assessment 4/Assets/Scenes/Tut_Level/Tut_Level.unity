@@ -2097,6 +2097,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 726569605173318484, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2034214726801263773, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2128,6 +2132,10 @@ PrefabInstance:
     - target: {fileID: 5144925908829443965, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 181
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531611635532534730, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5652447966745433183, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_RootOrder
@@ -2232,6 +2240,9 @@ PrefabInstance:
     - target: {fileID: 6826749645711997886, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+    - target: {fileID: 7384529737522256213, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7910956696381805695, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
