@@ -26,6 +26,7 @@ public class KeyDoor : MonoBehaviour
         }
         else
         {
+            Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
             WinGame();
         }
         
@@ -34,6 +35,7 @@ public class KeyDoor : MonoBehaviour
 
     public void WinGame()
     {
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         winningPanel.SetActive(true);

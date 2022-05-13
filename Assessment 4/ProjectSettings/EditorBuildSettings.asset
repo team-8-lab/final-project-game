@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tut_Level/Tut_Level.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Tut_Level/Tut_Puzzle1.unity
+    path: Assets/Scenes/Tut_Level/Tut_Puzzle.unity
     guid: 4fb33c0839b13f940be6e630ea61d409
   - enabled: 1
     path: Assets/Scenes/Main Menu/Instruction_Scene.unity
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_3/Level_3_Puzzle1.unity
     guid: 326cd454e36885a46ba9b052bde41cbb
+  - path: Assets/Scenes/Main Menu/Lose_Scene.unity
+    guid: d998eced064074e0cb6ad0a28a4bf382
+  - enabled: 1
+    path: Assets/Scenes/Level_1/Level1_Puzzle.unity
+    guid: 11ea1c8a91d474efda7aeeeeec5c45b5
+
   m_configObjects: {}

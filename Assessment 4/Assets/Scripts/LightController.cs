@@ -22,11 +22,6 @@ public class LightController : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        
-    }
-
     public void PuzzleComplete(bool toggle)
     {
         if(toggle)

@@ -9,9 +9,6 @@ public class DarknessTrigger : MonoBehaviour
 
     public GameObject blackOutSquare;
 
-    [SerializeField]
-    private GameObject losingPanel;
-
     public bool unlockCursor = false;
 
     private void OnTriggerStay(Collider other)
@@ -46,6 +43,8 @@ public class DarknessTrigger : MonoBehaviour
                 blackOutSquare.GetComponent<Image>().color = objectColor;
                 yield return null;
             }
+
+            Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
             LoseGame();
         }
         else
@@ -65,14 +64,12 @@ public class DarknessTrigger : MonoBehaviour
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        losingPanel.SetActive(true);
         unlockCursor = true;
     }
 
-    public void MainMenu()
+     public void MainMenu()
     {
         SceneManager.LoadScene("Main_Menu");
-        losingPanel.SetActive(false);
         unlockCursor = false;
     }
 }

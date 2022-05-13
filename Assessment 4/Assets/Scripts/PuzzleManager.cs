@@ -7,7 +7,7 @@ public class PuzzleManager : MonoBehaviour
 {
     public GameObject PuzzleHolder;
     public GameObject[] Pieces;
-    public Scene currentPuzzle;
+    public Scene previousScene;
 
     [SerializeField]
     int totalPieces = 0;
@@ -18,8 +18,8 @@ public class PuzzleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        currentPuzzle = SceneManager.GetActiveScene();
+        previousScene = SceneManager.GetActiveScene();
+        Debug.Log(previousScene.name);
         totalPieces = PuzzleHolder.transform.childCount;
 
         Pieces = new GameObject[totalPieces];
@@ -35,8 +35,32 @@ public class PuzzleManager : MonoBehaviour
         correctPieces += 1;
         if (correctPieces == totalPieces)
         {
-            SceneManager.LoadScene("Tut_Level");
-            SceneManager.UnloadSceneAsync(currentPuzzle.buildIndex);
+            if(previousScene.name == "Tut_Level")
+            {
+                SceneManager.LoadScene("Tut_Level");
+                SceneManager.UnloadSceneAsync(previousScene.buildIndex);
+            }
+            else if (previousScene.name == "Level_1")
+            {
+                SceneManager.LoadScene("Level_1");
+                SceneManager.UnloadSceneAsync(previousScene.buildIndex);
+            }
+            else if (previousScene.name == "Level_2")
+            {
+                SceneManager.LoadScene("Level_2");
+                SceneManager.UnloadSceneAsync(previousScene.buildIndex);
+            }
+            else if (previousScene.name == "Level_3")
+            {
+                SceneManager.LoadScene("Level_3");
+                SceneManager.UnloadSceneAsync(previousScene.buildIndex);
+            }
+            else if (previousScene.name == "Level_4")
+            {
+                SceneManager.LoadScene("Level_4");
+                SceneManager.UnloadSceneAsync(previousScene.buildIndex);
+            }
+
         }
     }
 
