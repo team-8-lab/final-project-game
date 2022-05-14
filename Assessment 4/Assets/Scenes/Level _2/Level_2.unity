@@ -5105,7 +5105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lamps: []
   lampsOff: []
-  lightToggle: 0
+  darknessMesh: []
 --- !u!1001 &456318314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9962,6 +9962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyType: 0
   winningPanel: {fileID: 1022744140}
+  unlockCursor: 0
 --- !u!65 &1039959493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18340,6 +18341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyType: 1
   winningPanel: {fileID: 1022744140}
+  unlockCursor: 0
 --- !u!65 &1857216158
 BoxCollider:
   m_ObjectHideFlags: 0

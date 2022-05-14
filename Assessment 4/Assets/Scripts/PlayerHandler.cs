@@ -10,7 +10,7 @@ public class PlayerHandler : MonoBehaviour
 {
     CharacterController controller;
     public float speed = 50f;
-    //public float sprint = 200f;
+    public float sprint = 500f;
     public float gravity = -9.81f;
     Vector3 V;
     private Scene currentScene;
@@ -30,7 +30,7 @@ public class PlayerHandler : MonoBehaviour
         }
 
         currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name == "Tut_Level" || currentScene.name == "Level_1")
+        if (currentScene.name == "Tut_Level" || currentScene.name == "Level_1" || currentScene.name == "Level_2")
         {
             PlayerMove();
         }
@@ -42,12 +42,16 @@ public class PlayerHandler : MonoBehaviour
         float X = Input.GetAxis("Horizontal");
         float Z = Input.GetAxis("Vertical");
         Vector3 M = transform.right * X + transform.forward * Z;
-        controller.Move(M * speed * Time.deltaTime);
+        //controller.Move(M * speed * Time.deltaTime);
 
-        /*if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             controller.Move(M * sprint * Time.deltaTime);
-        }*/
+        }
+        else
+        {
+            controller.Move(M * speed * Time.deltaTime);
+        }
 
         V.y += gravity * Time.deltaTime;
         controller.Move(V * Time.deltaTime);
