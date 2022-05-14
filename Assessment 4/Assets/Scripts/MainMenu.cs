@@ -50,5 +50,12 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level_2");
     }
+
+    public void loadLevel2Intro()
+    {
+        SceneManager.LoadScene("Level2_Introduction_New_Mechanism");
+    }
+
+
 }
 

@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Tut_Level/Tut_Puzzle.unity
     guid: 4fb33c0839b13f940be6e630ea61d409
   - enabled: 1
+    path: Assets/Scenes/Level _2/Level_2.unity
+    guid: a7b6c3fe91d7b4147abaa0ae2d6dd9ef
+  - enabled: 1
+    path: Assets/Scenes/Level _2/Level2_Introduction_New_Mechanism.unity
+    guid: 447c7ad77a48642ca95e96e9c9eb786c
+  - enabled: 1
     path: Assets/Scenes/Main Menu/Instruction_Scene.unity
     guid: 02347942a40694df183fceef83fa8f7f
   - enabled: 1

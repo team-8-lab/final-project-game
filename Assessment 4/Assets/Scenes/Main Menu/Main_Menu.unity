@@ -698,7 +698,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 421426498}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: loadLevel2
+        m_MethodName: loadLevel2Intro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
