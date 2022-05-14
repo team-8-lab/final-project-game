@@ -1,20 +1,19 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class LoseScreen : MonoBehaviour
 {
+
     private GameObject[] lamps;
     private GameObject[] lampsOff;
     private GameObject[] doors;
 
-    // Start is called before the first frame update
     void Start()
     {
-
         lamps = GameObject.FindGameObjectsWithTag("Puzzle1Light");
-        foreach (GameObject lamp in lamps)
+        foreach(GameObject lamp in lamps)
         {
             Destroy(lamp);
         }
@@ -29,26 +28,15 @@ public class MainMenu : MonoBehaviour
         {
             Destroy(door);
         }
+
         Destroy(GameObject.Find("Maze"));
         Destroy(GameObject.Find("Player"));
         Destroy(GameObject.Find("Lamp_ON_Light"));
     }
 
-    // Update is called once per frame
-    public void loadTutorial()
+    public void loadMenu()
     {
-        //SceneManager.LoadScene("Tut_Level");
-        SceneManager.LoadScene("Instruction_Scene");
-    }
-
-    public void loadLevel1()
-    {
-        SceneManager.LoadScene("Level_1");
-    }
-
-    public void loadLevel2()
-    {
-        SceneManager.LoadScene("Level_2");
+        SceneManager.LoadScene("Main_Menu");
     }
 }
 

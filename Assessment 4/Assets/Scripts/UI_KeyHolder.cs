@@ -9,13 +9,13 @@ public class UI_KeyHolder : MonoBehaviour
     private KeyHolder keyHolder;
 
     private Transform container;
-    private Transform KeyImage;
+    private Transform keyTemplate;
 
     private void Awake()
     {
         container = transform.Find("container");
-        KeyImage = container.Find("KeyImage");
-        KeyImage.gameObject.SetActive(false);
+        keyTemplate = container.Find("keyTemplate");
+        keyTemplate.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -32,7 +32,7 @@ public class UI_KeyHolder : MonoBehaviour
     {
         foreach(Transform child in container)
         {
-            if (child == KeyImage) continue;
+            if (child == keyTemplate) continue;
                 Destroy(child.gameObject);
         }
 
@@ -40,8 +40,16 @@ public class UI_KeyHolder : MonoBehaviour
         for (int i = 0; i < keyList.Count; i++)
         {
             Key.KeyType keyType = keyList[i];
-            Transform keyTransform = Instantiate(KeyImage, container);
-            KeyImage.gameObject.SetActive(true);
+            Transform keyTransform = keyTemplate;
+            keyTemplate.gameObject.SetActive(true);
+            Image keyImage = keyTransform.Find("image").GetComponent<Image>();
+            switch (keyType)
+            {
+                default:
+                case Key.KeyType.ExitKey: keyImage.color = Color.red; break;
+                case Key.KeyType.WallKey: keyImage.color = Color.green; break;
+                case Key.KeyType.DummyKey: keyImage.color = Color.gray; break;
+            }
         }
     }
 }

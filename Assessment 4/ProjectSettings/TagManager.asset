@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Puzzle
+  - Puzzle1LightOFF
+  - Puzzle1Light
+  - Door
   layers:
   - Default
   - TransparentFX

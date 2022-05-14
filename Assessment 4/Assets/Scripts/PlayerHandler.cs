@@ -30,11 +30,11 @@ public class PlayerHandler : MonoBehaviour
         }
 
         currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name == "Tut_Level" || currentScene.name == "Level_1" || currentScene.name == "Level_2")
+        if (currentScene.name == "Tut_Level" || currentScene.name == "Level_1" || currentScene.name == "Level_2" || currentScene.name == "Level_3" || currentScene.name == "Level_4")
         {
             PlayerMove();
         }
-        
+
     }
 
     void PlayerMove()
