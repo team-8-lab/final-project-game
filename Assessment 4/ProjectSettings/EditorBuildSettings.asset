@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level _2/Level2_Puzzle.unity
     guid: 38cd2535133424ca08507568a92ebdff
+  - enabled: 1
+    path: Assets/Scenes/Level_4/Level_4.unity
+    guid: fdd83fd95875def43916ec37103ab852
+  - enabled: 1
+    path: Assets/Scenes/Level_4/Level4_Puzzle.unity
+    guid: 221e0e25d54c15c489538cd3679a85fb
   m_configObjects: {}
