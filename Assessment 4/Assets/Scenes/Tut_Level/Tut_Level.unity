@@ -1289,7 +1289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 499cf872944eee449a1c180a6a78696a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2081,6 +2081,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1857216157}
+    - target: {fileID: 2044415556, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+      propertyPath: keySound
+      value: 
+      objectReference: {fileID: 584228413}
     - target: {fileID: 719699169193978774, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_Color.a
       value: 0
@@ -2099,7 +2103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 726569605173318484, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2034214726801263773, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_Name
@@ -2255,6 +2259,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+--- !u!82 &584228413 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2828247952138429858, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
+  m_PrefabInstance: {fileID: 584228412}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &598800181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3229925255785331318, guid: c2571b0c4b73545da9fac7c92bac36ab, type: 3}
@@ -4230,7 +4239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 499cf872944eee449a1c180a6a78696a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
