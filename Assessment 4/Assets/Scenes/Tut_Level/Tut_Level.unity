@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cf1fd577b9bdc489de7844d703d8b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: 
+  currentScene: Tut_Level
   LC: {fileID: 447307085}
 --- !u!65 &447307081
 BoxCollider:
@@ -2240,9 +2240,10 @@ PrefabInstance:
     - target: {fileID: 6826749645711997886, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7384529737522256213, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7910956696381805695, guid: cda976ded1616b04180b9738a1b92f56, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
