@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -440,8 +440,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "1. Use WASD to move\n\n2. Left click mouse to interact with puzzle boxes.
-    \n\n3. Solve puzzle boxes to turn on lights. You need light to stay alive.\n\n4.
-    Walk across keys to collect them. "
+    \n\n3. Solve puzzle boxes to turn on lights. Without light you might start to
+    go crazy...\n\n4. Walk into keys to collect them and into the correct doors to
+    open them."
 --- !u!222 &1124087664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -521,7 +522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find the treasure at the end of the mzae
+  m_Text: Navigate your way through the maze to find the treasure at the end
 --- !u!222 &1147853044
 CanvasRenderer:
   m_ObjectHideFlags: 0
