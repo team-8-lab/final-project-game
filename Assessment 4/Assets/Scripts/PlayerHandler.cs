@@ -53,6 +53,15 @@ public class PlayerHandler : MonoBehaviour
             controller.Move(M * speed * Time.deltaTime);
         }
 
+        if (Input.GetKey(KeyCode.LeftControl) && (currentScene.name == "Level_3" || currentScene.name == "Level_4"))
+        {
+            controller.height = 10f;
+        }
+        else
+        {
+            controller.height = 50f;
+        }
+
         V.y += gravity * Time.deltaTime;
         controller.Move(V * Time.deltaTime);
     }
