@@ -11,6 +11,7 @@ public class PlayerHandler : MonoBehaviour
     CharacterController controller;
     public float speed = 50f;
     public float sprint = 300f;
+    public float jump = 2.0f; 
     public float gravity = -9.81f;
     Vector3 V;
     private Scene currentScene;
@@ -48,6 +49,12 @@ public class PlayerHandler : MonoBehaviour
         {
             controller.Move(M * sprint * Time.deltaTime);
         }
+        
+        if (Input.GetKey(KeyCode.Space) && (currentScene.name == "Level_4"))
+        {
+            V.y = Mathf.Sqrt(jump * -2f * gravity);
+        }
+
         else
         {
             controller.Move(M * speed * Time.deltaTime);
