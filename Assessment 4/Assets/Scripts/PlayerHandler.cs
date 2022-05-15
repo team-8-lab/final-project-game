@@ -10,6 +10,7 @@ public class PlayerHandler : MonoBehaviour
 {
     CharacterController controller;
     public float speed = 50f;
+    public float sprint = 300f;
     public float gravity = -9.81f;
     Vector3 V;
     private Scene currentScene;
@@ -33,7 +34,7 @@ public class PlayerHandler : MonoBehaviour
         {
             PlayerMove();
         }
-        
+
     }
 
     void PlayerMove()
@@ -41,7 +42,16 @@ public class PlayerHandler : MonoBehaviour
         float X = Input.GetAxis("Horizontal");
         float Z = Input.GetAxis("Vertical");
         Vector3 M = transform.right * X + transform.forward * Z;
-        controller.Move(M * speed * Time.deltaTime);
+        //controller.Move(M * speed * Time.deltaTime);
+
+        if (Input.GetKey(KeyCode.LeftShift) && (currentScene.name == "Level_2" || currentScene.name == "Level_3" || currentScene.name == "Level_4"))
+        {
+            controller.Move(M * sprint * Time.deltaTime);
+        }
+        else
+        {
+            controller.Move(M * speed * Time.deltaTime);
+        }
 
         V.y += gravity * Time.deltaTime;
         controller.Move(V * Time.deltaTime);
