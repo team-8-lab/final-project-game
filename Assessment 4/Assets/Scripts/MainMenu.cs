@@ -45,15 +45,20 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level_1");
     }
+    
+    public void loadLevel2()
+    {
+        SceneManager.LoadScene("Level_2");
+    }
 
     public void loadLevel3()
     {
         SceneManager.LoadScene("Level_3");
     }
 
-    public void loadLevel2()
+       public void loadLevel4()
     {
-        SceneManager.LoadScene("Level_2");
+        SceneManager.LoadScene("Level_4");
     }
 
     public void loadLevel2Intro()
@@ -65,5 +70,11 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level3_Introduction_New_Mechanism");
     }
+
+      public void loadLevel4Intro()
+    {
+        SceneManager.LoadScene("Level4_Introduction_New_Mechanism");
+    }
+
 }
 
