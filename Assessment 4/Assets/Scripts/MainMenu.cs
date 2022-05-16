@@ -60,5 +60,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level2_Introduction_New_Mechanism");
     }
+
+    public void loadLevel3Intro()
+    {
+        SceneManager.LoadScene("Level3_Introduction_New_Mechanism");
+    }
 }
 
