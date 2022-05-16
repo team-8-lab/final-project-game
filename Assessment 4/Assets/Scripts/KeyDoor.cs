@@ -26,7 +26,6 @@ public class KeyDoor : MonoBehaviour
         }
         else
         {
-            Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
             WinGame();
         }
         

@@ -33,15 +33,19 @@ public class UI_KeyHolder : MonoBehaviour
         foreach(Transform child in container)
         {
             if (child == keyTemplate) continue;
+            {
                 Destroy(child.gameObject);
+            }
         }
 
         List<Key.KeyType> keyList = keyHolder.GetKeyList();
+
         for (int i = 0; i < keyList.Count; i++)
         {
             Key.KeyType keyType = keyList[i];
-            Transform keyTransform = keyTemplate;
-            keyTemplate.gameObject.SetActive(true);
+            Transform keyTransform = Instantiate(keyTemplate, container);
+            keyTransform.gameObject.SetActive(true);
+            keyTransform.GetComponent<RectTransform>().anchoredPosition = new Vector2(50 * i, 0);
             Image keyImage = keyTransform.Find("image").GetComponent<Image>();
             switch (keyType)
             {
