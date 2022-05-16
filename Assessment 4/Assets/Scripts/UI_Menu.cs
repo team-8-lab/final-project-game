@@ -25,11 +25,26 @@ public class UI_Menu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
+                
             }
             else
             {
                 Pause();
             }
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if(GameIsPaused)
+            LoadMenu();
+        }
+        if (unlockCursor)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        } else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 

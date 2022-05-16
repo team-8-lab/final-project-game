@@ -7,6 +7,7 @@ public class MouseLook : MonoBehaviour
 {
 
     public GameObject WinScreen;
+    public GameObject UI_Menu;
     public float mouseSensitivity = 100f;
     public Transform PlayerBody;
     float Xrot = 0f;
@@ -31,7 +32,7 @@ public class MouseLook : MonoBehaviour
 
         if (Cursor.lockState == CursorLockMode.None)
         {
-            if (Input.GetMouseButtonDown(0) && !WinScreen.activeInHierarchy)
+            if (Input.GetMouseButtonDown(0) && (!WinScreen.activeInHierarchy || !UI_Menu.activeInHierarchy))
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
