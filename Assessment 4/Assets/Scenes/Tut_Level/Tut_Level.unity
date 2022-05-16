@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cf1fd577b9bdc489de7844d703d8b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: 
+  currentScene: Tut_Level
   LC: {fileID: 447307085}
 --- !u!65 &447307081
 BoxCollider:
