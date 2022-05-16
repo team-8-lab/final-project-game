@@ -12,11 +12,13 @@ public class MouseLook : MonoBehaviour
     public Transform PlayerBody;
     float Xrot = 0f;
     private Scene currentScene;
+    private bool paused;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        paused = false;
     }
 
     // Update is called once per frame
@@ -28,14 +30,23 @@ public class MouseLook : MonoBehaviour
 
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            paused = true;
         }
 
-        if (Cursor.lockState == CursorLockMode.None)
+        if (WinScreen.activeInHierarchy)
         {
-            if (Input.GetMouseButtonDown(0) && (!WinScreen.activeInHierarchy || !UI_Menu.activeInHierarchy))
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+        if (paused && !WinScreen.activeInHierarchy)
+        {
+            
+            if (Input.GetMouseButtonDown(0))
             {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                    paused = false;
             }
         }
 

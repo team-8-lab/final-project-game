@@ -37,15 +37,6 @@ public class UI_Menu : MonoBehaviour
             if(GameIsPaused)
             LoadMenu();
         }
-        if (unlockCursor)
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        } else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
     }
 
     public void Resume()
