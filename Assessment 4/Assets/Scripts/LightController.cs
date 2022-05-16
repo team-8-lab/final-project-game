@@ -32,10 +32,6 @@ public class LightController : MonoBehaviour
                 lamps[i].SetActive(true);
                 toggle = false;
             }
-            for (int i = 0; i < lampsOff.Length; i++)
-            {
-                lampsOff[i].SetActive(false);
-            }
             for (int i = 0; i < darknessMesh.Length; i++)
             {
                 darknessMesh[i].transform.position += new Vector3(0, 300, 0);

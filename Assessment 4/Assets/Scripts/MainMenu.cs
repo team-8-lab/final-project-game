@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     private GameObject[] lamps;
     private GameObject[] lampsOff;
     private GameObject[] doors;
+    private GameObject[] puzzles;
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +30,15 @@ public class MainMenu : MonoBehaviour
         {
             Destroy(door);
         }
+        puzzles = GameObject.FindGameObjectsWithTag("Puzzle");
+        foreach (GameObject puzzle in puzzles)
+        {
+            Destroy(puzzle);
+        }
         Destroy(GameObject.Find("Maze"));
         Destroy(GameObject.Find("Player"));
         Destroy(GameObject.Find("Lamp_ON_Light"));
+        Destroy(GameObject.Find("UI_KeyHolder_Canvas"));
     }
 
     // Update is called once per frame

@@ -11,7 +11,7 @@ public class PlayerHandler : MonoBehaviour
     CharacterController controller;
     public float speed = 50f;
     public float sprint = 300f;
-    public float jump = 2.0f; 
+    public float jump = 10.0f; 
     public float gravity = -9.81f;
     Vector3 V;
     private Scene currentScene;
@@ -45,12 +45,12 @@ public class PlayerHandler : MonoBehaviour
         Vector3 M = transform.right * X + transform.forward * Z;
         //controller.Move(M * speed * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.LeftShift) && (currentScene.name == "Level_2" || currentScene.name == "Level_3" || currentScene.name == "Level_4"))
+        if (Input.GetKey(KeyCode.LeftShift) && (currentScene.name == "Level_2" || currentScene.name == "Level_3" || currentScene.name == "Level_4") && controller.isGrounded)
         {
             controller.Move(M * sprint * Time.deltaTime);
         }
         
-        if (Input.GetKey(KeyCode.Space) && (currentScene.name == "Level_4"))
+        if (Input.GetKeyDown(KeyCode.Space) && (currentScene.name == "Level_4") && controller.isGrounded)
         {
             V.y = Mathf.Sqrt(jump * -2f * gravity);
         }
